@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.me {
+  display: flex;
+}
+
+.projects-list .project:nth-child(1) img{
+  width: 500px;
+}
+
+.projects-list img {
+  width: 200px;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+   "project1 project1 project2"
+   "peoject3 project4 project5"
+   ;
+}
+
+.project1 {
+  grid-area: project1;
+}
+
+.project2 {
+  grid-area: project2;
+}
+
+.project3 {
+  grid-area: project3;
+}
+
+.project4 {
+  grid-area: project4;
+}
+
+.project5 {
+  grid-area: project5;
+}
+
+.page-section {
+  margin-left: 100px;
+}
