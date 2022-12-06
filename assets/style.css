@@ -252,20 +252,24 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
   }
+  
   nav > a {
     font-size: 12px;
   }
+  
   header {
     font-size: 20px;
   }
+  
   .subheading {
     font-size: 10px;
   }
+  
   h3 {
     font-size: 20px;
   }
+ 
   .contactMe > a {
     font-size: 12px;
   }
-
 }
