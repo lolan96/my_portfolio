@@ -3,7 +3,6 @@
 }
 
 /* main body */
-
 body {
   margin: 0;
   padding: 10px;
@@ -45,7 +44,6 @@ nav > a {
 }
 
 /* header with name */
-
 header {
   color: #357266;
   font-style: italic;
@@ -53,8 +51,7 @@ header {
   font-size: 50px;
 }
 
-/* sub-heading */
-
+/* subheading */
 .subheading {
   display:flex;
   justify-content: flex-end;
@@ -67,7 +64,6 @@ header {
 }
 
 /* about me section with avatar*/
-
 h3 {
   color: #357266;
   font-family: 'Times New Roman', Times, serif;
@@ -76,12 +72,10 @@ h3 {
   padding-bottom: 5px;
 }
 
-.about {
+.aboutMe {
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
-.aboutMe {
+  min-height: 280px;
   border-bottom-style: solid;
   border-width: 1px;
   padding-bottom: 30px;
@@ -95,15 +89,14 @@ h3 {
 }
 
 .avatar img {
-  width: 210px;
-  height: 210px;
+  max-width: 210px;
+  max-height: 210px;
   float: left;
   padding: 5px 10px 0 0;
   border-radius: 25px;
 }
 
 /* my projects section */
-
 .my-projects {
   margin-top: 10px;
   color: #42436F;
@@ -165,7 +158,6 @@ h4 {
 }
 
 /* contact me section */
-
 .contactMe {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -180,7 +172,6 @@ h4 {
 }
 
 /* footer */
-
 footer {
   display: flex;
   justify-content: center;
@@ -247,6 +238,8 @@ footer {
     font-size: 14px;
   }
 }
+
+/* for mobile */
 @media only screen and (max-width: 480px) {
   body {
     margin-left: 10px;
@@ -268,7 +261,7 @@ footer {
   h3 {
     font-size: 20px;
   }
- 
+  
   .contactMe > a {
     font-size: 12px;
   }
