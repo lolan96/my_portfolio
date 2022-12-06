@@ -10,13 +10,16 @@ I've utilised the CSS I've learnt over the first two weeks of my course such as 
 The website can be accessed [here](https://lolanewell.github.io/my-portfolio/#my-projects)
 
 ## Usage
-desktop:
+desktop: 
+
 ![desktop](assets/images/my_portfolio_desktop.png)
 
-tablet:
+tablet: 
+
 ![tablet](assets/images/my_portfolio_tablet.png)
 
-mobile:
+mobile: 
+
 ![mobile](assets/images/my_portfolio_mobile.png)
 
 ## Credits
